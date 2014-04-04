@@ -28,7 +28,7 @@ no_index:
 provides:
   Reply::Plugin::DataDumperAutoEncode:
     file: lib/Reply/Plugin/DataDumperAutoEncode.pm
-    version: '0.01'
+    version: '0.02'
 requires:
   Data::Dumper::AutoEncode: '0'
   Reply::Plugin: '0'
@@ -38,4 +38,6 @@ resources:
   bugtracker: https://github.com/tsucchi/Reply-Plugin-DataDumperAutoEncode/issues
   homepage: https://github.com/tsucchi/Reply-Plugin-DataDumperAutoEncode
   repository: git://github.com/tsucchi/Reply-Plugin-DataDumperAutoEncode.git
-version: '0.01'
+version: '0.02'
+x_contributors:
+  - 'Takuya Tsuchida <takuya.tsuchida@gmail.com>'
